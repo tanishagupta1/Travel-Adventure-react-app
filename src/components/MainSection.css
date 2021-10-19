@@ -60,12 +60,13 @@ margin: 6px;
     .main-container >p{
         font-size: 1.5rem;
     }
+
+    .btn-mobile{
+        display: block;
+    }
+    
+    .btn{
+        width: 100%;
+    }
 }
 
-.btn-mobile{
-    display: block;
-}
-
-.btn{
-    width: 100%;
-}

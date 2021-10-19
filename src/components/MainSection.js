@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from './Button'
 import './MainSection.css'
 import '../App.css'
-import Bgvideo from '../videos/video-2.mp4'
+import Bgvideo from '../videos/video-1.mp4'
 
 function MainSection() {
     return (
