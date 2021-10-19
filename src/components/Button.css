@@ -1,7 +1,3 @@
-:root{
-    --primary:white;
-    --dark-text:black;
-}
 
 .btn {
     padding: 8px 20px;
@@ -34,8 +30,19 @@
     font-size: 20px;
 }
 
-.btn-medium:hover, .btn-large:hover {
+
+.btn-outline:hover{
  background-color: var(--primary);
  color: var(--dark-text);
  transition: all 0.3s ease-out;
 }
+
+.btn-primary:hover{
+ background-color: #F3f0e8;
+ color: var(--dark-text);
+ transition: all 0.3s ease-out;
+}
+
+
+
+
