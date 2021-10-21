@@ -1,10 +1,32 @@
-# Getting Started with Create React App
+## About 
+This react app is a website for searching travel plans and holiday destinations.
+## **Getting Started**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For the quick start, you can follow the steps below:
 
-## Available Scripts
+1. Star <a href="https://github.com/tanishagupta1/Travel-Adventure-react-app.git" title="this">this</a> repository.
+2. Fork <a href="https://github.com/tanishagupta1/Travel-Adventure-react-app.git" title="this">this</a> repository.
+3. Clone the **forked** repository.
+4. Set <a href="https://github.com/tanishagupta1/Travel-Adventure-react-app.git" title="this">this</a> repository as upstream repository. 
 
-In the project directory, you can run:
+```yml
+git clone https://github.com/<your-github-username>/Travel-Adventure-react-app
+```
+Set upstream command
+```yml
+git remote add upstream https://github.com/tanishagupta1/Travel-Adventure-react-app.git
+```
+
+5. Navigate to the project directory.
+
+```py
+cd Travel-Adventure-react-app
+```
+5. Install dependencies by running the follwing command
+
+```py
+npm install
+```
 
 ### `npm start`
 
@@ -39,19 +61,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
 ### Making a Progressive Web App
 
