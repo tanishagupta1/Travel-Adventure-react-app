@@ -23,7 +23,7 @@ function Footer() {
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>About Us</h2>
+                        <div className="footer-heads">About Us</div>
                         <Link to="/">How it Works</Link>
                         <Link to="/">Testimonials</Link>
                         <Link to="/">Investors</Link>
@@ -33,7 +33,7 @@ function Footer() {
 
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>Contact</h2>
+                        <div className="footer-heads">Contact</div>
                         <Link to="/">Support</Link>
                         <Link to="/">Guide</Link>
                         <Link to="/">Email</Link>
@@ -43,7 +43,7 @@ function Footer() {
 
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>Videos</h2>
+                        <div className="footer-heads">Videos</div>
                         <Link to="/">Submit a Video</Link>
                         <Link to="/">Ambassadors</Link>
                         <Link to="/">Franchise</Link>

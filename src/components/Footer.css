@@ -63,9 +63,10 @@
     box-sizing: border-box;
 }
 
-.footer-link-items >h2{
+.footer-heads{
     color: var(--primary);
     margin-bottom: 15px;
+    font-size: 2rem;
 }
 
 .footer-link-items a{
@@ -155,6 +156,16 @@
     .social-media-container {
       flex-direction: column;
     }
+    .fa{
+        font-size: 12px;
+    }
+    
   }
+
+  /* @media screen and (max-width: 406px){
+      .footer-link-items{
+          flex-direction: column;
+      }
+  } */
   
   

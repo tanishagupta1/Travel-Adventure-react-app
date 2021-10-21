@@ -1,5 +1,5 @@
 ## About 
-This react app is a website for searching travel plans and holiday destinations.
+This react app is a websiteclear for searching travel plans and holiday destinations.
 ## **Getting Started**
 
 For the quick start, you can follow the steps below:
