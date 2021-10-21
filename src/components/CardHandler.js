@@ -16,21 +16,21 @@ function CardHandler() {
             <div className="cards-container">
                 <div className="cards-wrapper">
                     <ul className="cards-items">
-                        <Card 
-                        src={img_9} text="Explore the waterfall of Pachmarhi." label="Adventure" path="/services"/>
+                        <Card
+                            src={img_9} text="Explore the waterfall of Pachmarhi." label="Adventure" path="/" />
 
-                        <Card 
-                        src={img_2} text="Experience the islands of Andaman in private yacht." label="Luxury" path="/services"/>
+                        <Card
+                            src={img_2} text="Experience the islands of Andaman in private yacht." label="Luxury" path="/" />
                     </ul>
-                    <ul className="cards-items">  
-                    <Card 
-                        src={img_4} text="Play on the grasslands of Khajjiar." label="Exhilarating" path="/services"/>
+                    <ul className="cards-items">
+                        <Card
+                            src={img_4} text="Play on the grasslands of Khajjiar." label="Exhilarating" path="/" />
 
-                        <Card 
-                        src={img_1} text="Experience the calm of Mountains in Himachal" label="Blissful" path="/services"/>
+                        <Card
+                            src={img_1} text="Experience the calm of Mountains in Himachal" label="Blissful" path="/" />
 
-                        <Card 
-                        src={img_8} text="Ride through the deserts of Rajasthan" label="Ethnicity" path="/services"/>
+                        <Card
+                            src={img_8} text="Ride through the deserts of Rajasthan" label="Ethnicity" path="/" />
                     </ul>
                 </div>
             </div>

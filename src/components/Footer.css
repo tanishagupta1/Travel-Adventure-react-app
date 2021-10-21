@@ -39,6 +39,7 @@
     font-size: 18px;
     margin-bottom: 16px;
     border: 1px solid var(--primary);
+    padding: 4px;
 }
 
 .footer-links{
@@ -92,6 +93,10 @@
     color: var(--primary);
     font-size: 24px;
 }
+.social-icon-link:hover, .social-logo:hover{
+    color: #b1b1b1;
+}
+
 
 .social-media{
     max-width: 1000px;

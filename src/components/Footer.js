@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from './Button'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 function Footer() {
@@ -30,10 +30,10 @@ function Footer() {
                         <Link to="/">Terms of Services</Link>
                     </div>
                 </div>
-                
+
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>Contact Us</h2>
+                        <h2>Contact</h2>
                         <Link to="/">Support</Link>
                         <Link to="/">Guide</Link>
                         <Link to="/">Email</Link>
@@ -55,20 +55,26 @@ function Footer() {
                 <div className="social-media-container">
                     <div className="footer-logo">
                         <Link className="social-logo">
-                            TRVL <i className='fab fa-typo3'/>
+                            TRVL <i className='fab fa-typo3' />
                         </Link>
                     </div>
-                    <small className="copyright">TRVL &copy 2021</small>
+                    <small className="copyright">TRVL &copy; 2021</small>
                     <div className="social-icons">
-                        <Link className="social-icon-link linkedin" to="/" target='_blank' aria-label="Fcebook">
-                        <i className="fab fa-linkedin"></i>
-                        </Link>
-                        <Link className="social-icon-link twitter" to="/" target='_blank' aria-label="Fcebook">
-                        <i className="fab fa-twitter"></i>
-                        </Link>
-                        <Link className="social-icon-link medium" to="/" target='_blank' aria-label="Fcebook">
-                        <i className="fab fa-medium"></i>
-                        </Link>
+                        <a href="https://www.linkedin.com/in/tanisha-gupta1/" className="social-icon-link linkedin" aria-label="LinkedIn">
+                            <i className="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/tanisha_gupta12" className="social-icon-link twitter" aria-label="twitter">
+                            <i className="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://tanishagupta213.medium.com/" className="social-icon-link medium" aria-label="Medium">
+                            <i className="fab fa-medium"></i>
+                        </a>
+                        <a href="https://github.com/tanishagupta1" className="social-icon-link github" aria-label="Github">
+                            <i className="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:tanishagupta2201@gmail.com" className="social-icon-link email" aria-label="Email">
+                            <i className="fas fa-envelope"></i>
+                        </a>
                     </div>
                 </div>
             </section>
